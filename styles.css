@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+  width: 70%;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00000022;
+}
+#title,
+.title {
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  #main {
+    width: 95%;
+  }
+}
